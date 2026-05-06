@@ -1,6 +1,6 @@
 # CyberProctor Secure Agent
 
-CyberProctor is a lightweight but strict desktop proctoring agent deployed as a standalone Python executable. Designed to maintain the integrity of online interviews and exams, this agent forcefully locks down the candidate's environment, prevents screen-sharing, stops cheating tools, and ensures focus is strictly on the meeting.
+CyberProctor is a lightweight but strict desktop proctoring agent deployed as a standalone Python executable. Designed to maintain the integrity of online interviews, this agent forcefully locks down the candidate's environment, prevents screen-sharing, stops cheating tools, and ensures focus is strictly on the meeting.
 
 ## Features
 
@@ -13,7 +13,7 @@ CyberProctor is a lightweight but strict desktop proctoring agent deployed as a 
   - Remote desktop software (AnyDesk, TeamViewer)
   - Messaging apps (Discord, Telegram, Skype)
 - **Keyboard Hooking**: Disables system shortcuts like `Alt+Tab`, `Windows Key`, `Ctrl+Esc`, etc.
-- **Secure Meeting Launch**: Spawns Zoom or Google Meet inside an isolated container (`pywebview`) so the browser cannot be manipulated (no URL bar, restricted extensions). 
+- **Secure Meeting Launch**: Spawns Zoom or Google Meet inside an isolated container so the browser cannot be manipulated (no URL bar, restricted extensions). 
 - **Anti-Debugger & Proxy Check**: Ensures the integrity of the network and memory space.
 
 
